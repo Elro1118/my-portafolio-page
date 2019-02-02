@@ -23,6 +23,8 @@ body {
 /*-----------------------------------------------------------------------------------*/
 /*---------------------------------------Second Section------------------------------*/
 .secondSection {
+	display: flex;
+	flex-flow: column wrap;
 	background: rgb(3, 16, 25);
 }
 /*-----------------------------------------------------------------------------------*/
@@ -40,11 +42,28 @@ body {
 	/*----------------------------------------------------------------------------------*/
 }
 .firstArticle {
-	background-color: chartreuse;
+	background: no-repeat url(/images/react.png);
+	background-size: cover;
+	margin: 20px 20px 10px 20px;
+	border-radius: 5px;
 }
 
 .secondArticle {
-	background-color: coral;
+	background: no-repeat url(/images/code.png);
+	background-size: cover;
+	margin: 10px 20px 20px 20px;
+	border-radius: 5px;
+}
+.firstParagraph {
+	background: white;
+	padding: 1rem;
+	margin: 50px 0px 0px 0px;
+}
+
+.secondParagraph {
+	background: white;
+	padding: 1rem;
+	margin: 50px 0px 0px 0px;
 }
 
 .myFooter {
