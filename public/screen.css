@@ -19,22 +19,25 @@ h2 {
 .firstSection {
 	display: flex;
 	flex-flow: column wrap;
-
 	background: no-repeat url('/images/space.png');
 	background-size: cover;
 }
 /*--------------------------------------------------*/
-/*--------------------Second Section-----------------*/
+/*--------------------Second Section----------------*/
 .secondSection {
 	display: flex;
 	flex-flow: column wrap;
 	background: rgb(3, 16, 25);
 }
 /*--------------------------------------------------*/
+/* ---------------First SubSection----------------- */
 .firstSubSection {
-	background: aqua;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: baseline;
 	margin: 0;
 }
+/* ------------------------------------------------ */
 /*----------------Second SubSection-----------------*/
 .secondSubSection {
 	display: flex;
@@ -104,6 +107,38 @@ h2 {
 	border-radius: 100px;
 }
 /* ----------------- */
-.myParagrphFooter {
+.myParagraphFooter {
 	font-size: 0.7rem;
+}
+.myPhoto {
+	margin: 100px 5px 100px 100px;
+}
+
+.myDialog {
+	/* display: flex; */
+	margin: 80px 0px 230px 5px;
+	background: white;
+	border-radius: 5px;
+	padding: 1rem;
+
+	/* align-items: center; */
+}
+
+.triangle {
+	height: 0;
+	width: 0;
+	border: 15px solid transparent;
+	border-top-color: white;
+	float: right;
+	position: relative;
+	right: 380px;
+	top: 125px;
+	border-bottom: 0px;
+	transform: rotate(130deg);
+}
+
+.triangleSection {
+	display: flex;
+	/* flex-flow: column wrap; */
+	/* align-items: flex-start; */
 }
