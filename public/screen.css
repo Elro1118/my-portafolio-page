@@ -12,7 +12,10 @@ body {
 	margin: 0;
 	min-height: 100%;
 }
-/*---------------------------------------First Section-------------------------------*/
+h2 {
+	margin: 70px 0px 25px 0px;
+}
+/*-----------------First Section--------------------*/
 .firstSection {
 	display: flex;
 	flex-flow: column wrap;
@@ -20,108 +23,87 @@ body {
 	background: no-repeat url('/images/space.png');
 	background-size: cover;
 }
-/*-----------------------------------------------------------------------------------*/
-/*---------------------------------------Second Section------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------Second Section-----------------*/
 .secondSection {
 	display: flex;
 	flex-flow: column wrap;
 	background: rgb(3, 16, 25);
 }
-/*-----------------------------------------------------------------------------------*/
+/*--------------------------------------------------*/
 .firstSubSection {
 	background: aqua;
 	margin: 0;
 }
-/*---------------------------------------- Second SubSection--------------------------*/
+/*----------------Second SubSection-----------------*/
 .secondSubSection {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	background: rgba(0, 0, 0, 0.5);
 	padding: 1rem;
-	/*----------------------------------------------------------------------------------*/
+	/*------------------------------------------------*/
 }
 .firstArticle {
 	background: no-repeat url(/images/react.png);
 	background-size: cover;
 	margin: 20px 20px 10px 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .secondArticle {
 	background: no-repeat url(/images/code.png);
 	background-size: cover;
 	margin: 10px 20px 20px 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 .firstParagraph {
 	background: white;
+	text-align: justify;
 	padding: 1rem;
 	margin: 50px 0px 0px 0px;
 }
 
 .secondParagraph {
 	background: white;
+	text-align: justify;
 	padding: 1rem;
 	margin: 50px 0px 0px 0px;
 }
 
 .myFooter {
-	background-color: yellowgreen;
+	background: rgb(3, 16, 25);
+	color: white;
+	text-align: center;
 }
-/* First fase
-.myHeader {
-	display: flex;
-	flex-direction: column;
-	background: no-repeat url('/images/space.png');
-	background-size: 100%;
-}
-
-.myPhotoSection {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-}
-
-.myPhotoImage {
-	margin: 100px 0px 50px 150px;
-}
-
-.myDialogSection {
-	display: flex;
-	flex-direction: column;
-}
-
-.myImageListSection {
+.myFooterImages {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
-	padding: 15px;
-
-	background-color: black;
+	justify-content: center;
+	align-items: stretch;
 }
-.myColorDownSection {
-	background-color: #111323;
+/* My Twitter Images */
+#t1 {
+	margin: 0px 10px 70px 0px;
+	border-radius: 100px;
 }
-
-.myArticleSection {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-content: space-around;
-	justify-content: space-around;
+#t2 {
+	margin: 0px 10px 70px 0px;
+	border-radius: 100px;
 }
-
-ul.character-list {
-	list-style: none;
+#t3 {
+	margin: 0px 10px 70px 0px;
+	border-radius: 100px;
 }
-
-li {
-	display: inline;
+#t4 {
+	margin: 0px 10px 70px 0px;
+	border-radius: 100px;
 }
-
-footer {
-	text-align: center;
-	font-size: 0.8rem;
+#t5 {
+	margin: 0px 10px 70px 0px;
+	border-radius: 100px;
 }
- */
+/* ----------------- */
+.myParagrphFooter {
+	font-size: 0.7rem;
+}
