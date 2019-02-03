@@ -204,13 +204,22 @@ h2 {
 	.firstSubSection {
 		display: flex;
 		flex-flow: column wrap;
+		align-items: center;
+		justify-content: center;
 	}
+
+	.triangleSection {
+		display: flex;
+		justify-content: flex-start;
+	}
+
 	.myDialog {
-		margin: 5px 20px 20px 45px;
+		margin: 0.5rem;
 	}
+
 	.myPhoto {
-		margin: 20px 20px 5px 120px;
-		width: 15rem;
+		margin: 0.5rem;
+		width: 12rem;
 	}
 }
 /*------------------------------------------------*/
