@@ -185,10 +185,12 @@ h2 {
 }
 #mySecondBox {
 	background: rgb(43, 159, 226);
-	position: relative;
+	position: absolute;
+	margin: 0 auto;
+	left: 1635px;
+	right: auto;
 	color: white;
-	top: 20px;
-	left: 700px;
+	top: 910px;
 	padding: 0.7rem;
 	border-radius: 0.6rem;
 	text-decoration: none;
