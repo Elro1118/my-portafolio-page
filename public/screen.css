@@ -172,8 +172,27 @@ h2 {
 	flex: 1 100%;
 }
 /*------------------------------------------------*/
-/*----------------Position Box--------------------*/
-
+/*----------------Float Boxes--------------------*/
+#myFirstBox {
+	background: rgb(43, 159, 226);
+	position: relative;
+	color: white;
+	top: 20px;
+	left: 930px;
+	padding: 0.7rem;
+	border-radius: 0.6rem;
+	text-decoration: none;
+}
+#mySecondBox {
+	background: rgb(43, 159, 226);
+	position: relative;
+	color: white;
+	top: 20px;
+	left: 700px;
+	padding: 0.7rem;
+	border-radius: 0.6rem;
+	text-decoration: none;
+}
 /*------------------------------------------------*/
 /* ------------------Mobil Screen-----------------*/
 @media (max-width: 600px) {
@@ -220,6 +239,18 @@ h2 {
 	.myPhoto {
 		margin: 0.5rem;
 		width: 12rem;
+	}
+	#myFirstBox {
+		display: initial;
+		position: initial;
+		background: initial;
+		color: rgb(43, 159, 226);
+	}
+	#mySecondBox {
+		display: initial;
+		position: initial;
+		background: initial;
+		color: rgb(43, 159, 226);
 	}
 }
 /*------------------------------------------------*/
