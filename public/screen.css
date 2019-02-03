@@ -174,17 +174,27 @@ h2 {
 /*------------------------------------------------*/
 /*----------------Float Boxes--------------------*/
 #myFirstBox {
-	background: rgb(43, 159, 226);
+	background-color: rgb(20, 131, 210);
+	margin: -0.5rem 1rem -1rem 4rem;
+	border: none;
+	color: white;
+	border-radius: 3px;
+	/* background: rgb(43, 159, 226);
 	position: relative;
 	color: white;
 	top: 20px;
 	left: 930px;
 	padding: 0.7rem;
 	border-radius: 0.6rem;
-	text-decoration: none;
+	text-decoration: none; */
 }
 #mySecondBox {
-	background: rgb(43, 159, 226);
+	background-color: rgb(20, 131, 210);
+	margin: -0.5rem 1rem -1rem 4rem;
+	border: none;
+	color: white;
+	border-radius: 3px;
+	/* background: rgb(43, 159, 226);
 	position: absolute;
 	margin: 0 auto;
 	left: 1635px;
@@ -193,7 +203,7 @@ h2 {
 	top: 910px;
 	padding: 0.7rem;
 	border-radius: 0.6rem;
-	text-decoration: none;
+	text-decoration: none; */
 }
 /*------------------------------------------------*/
 /* ------------------Mobil Screen-----------------*/
