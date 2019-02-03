@@ -89,27 +89,44 @@ h2 {
 #t1 {
 	margin: 0px 10px 70px 0px;
 	border-radius: 100px;
+	width: 5rem;
+	height: 5rem;
 }
 #t2 {
 	margin: 0px 10px 70px 0px;
 	border-radius: 100px;
+	width: 5rem;
+	height: 5rem;
 }
 #t3 {
 	margin: 0px 10px 70px 0px;
 	border-radius: 100px;
+	width: 5rem;
+	height: 5rem;
 }
 #t4 {
 	margin: 0px 10px 70px 0px;
 	border-radius: 100px;
+	width: 5rem;
+	height: 5rem;
 }
 #t5 {
 	margin: 0px 10px 70px 0px;
 	border-radius: 100px;
+	width: 5rem;
+	height: 5rem;
 }
 /*------------------------------------------------*/
+/* -----------My Paragraph Footer-----------------*/
 .myParagraphFooter {
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 }
+/*------------------------------------------------*/
+/*-------------My Name Title----------------------*/
+#myName {
+	font-size: 2rem;
+}
+/*------------------------------------------------*/
 .myPhoto {
 	margin: 100px 5px 100px 100px;
 }
@@ -119,8 +136,10 @@ h2 {
 	background: white;
 	border-radius: 5px;
 	padding: 1rem;
+	font-size: 1rem;
 }
 /*------------------------------------------------*/
+/*--------------My Triangle Position--------------*/
 .triangle {
 	height: 0;
 	width: 0;
@@ -129,16 +148,17 @@ h2 {
 	float: right;
 	position: relative;
 	right: 380px;
-	top: 125px;
+	top: 150px;
 	border-bottom: 0px;
 	transform: rotate(130deg);
 }
 
 .triangleSection {
 	display: flex;
-	/* 
-	flex-flow: column wrap; */
-	/* align-items: flex-start; */
+}
+/*------------------------------------------------*/
+.articleTitles {
+	font-size: 1.2rem;
 }
 
 /*----------------My Body Wrap 100%--------------*/
@@ -153,28 +173,9 @@ h2 {
 }
 /*------------------------------------------------*/
 /*----------------Position Box--------------------*/
-/* .positioned {
-	position: absolute;
-	background: turquoise;
-	bottom: -135px;
-	right: 50px;
-} */
-.box {
-	display: inline-block;
-	width: 100px;
-	height: 100px;
-	background: red;
-	color: white;
-}
 
-#two {
-	position: relative;
-	top: 30px;
-	left: 20px;
-	background: blue;
-}
 /*------------------------------------------------*/
-/* ------------------Mobil Screen---------------*/
+/* ------------------Mobil Screen-----------------*/
 @media (max-width: 600px) {
 	#t1 {
 		width: 2rem;
