@@ -253,7 +253,7 @@ h2 {
 		margin: 0.5rem;
 		width: 12rem;
 	}
-	#myFirstBox {
+	/* #myFirstBox {
 		display: initial;
 		position: initial;
 		background: initial;
@@ -264,7 +264,7 @@ h2 {
 		position: initial;
 		background: initial;
 		color: rgb(43, 159, 226);
-	}
+	} */
 
 	/*----------------Float Boxes--------------------*/
 	#myFirstBox {
@@ -288,5 +288,8 @@ h2 {
 		text-decoration: none;
 	}
 	/*------------------------------------------------*/
+	.myParagraphFooter {
+		font-size: 0.6rem;
+	}
 }
 /*------------------------------------------------*/
