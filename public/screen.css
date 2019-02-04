@@ -175,36 +175,23 @@ h2 {
 /*----------------Float Boxes--------------------*/
 #myFirstBox {
 	background-color: rgb(20, 131, 210);
-	margin: -0.5rem 1rem -1rem 4rem;
-	border: none;
-	color: white;
-	border-radius: 3px;
-	/* background: rgb(43, 159, 226);
 	position: relative;
 	color: white;
-	top: 20px;
-	left: 930px;
+	top: 15px;
+	left: 1085px;
 	padding: 0.7rem;
 	border-radius: 0.6rem;
-	text-decoration: none; */
+	text-decoration: none;
 }
 #mySecondBox {
 	background-color: rgb(20, 131, 210);
-	text-align: center;
-	border: none;
+	position: relative;
 	color: white;
-	border-radius: 3px;
-
-	/* 
-	position: absolute;
-	margin: 0 auto;
-	left: 1635px;
-	right: auto;
-	color: white;
-	top: 910px;
+	top: 15px;
+	left: 19px;
 	padding: 0.7rem;
 	border-radius: 0.6rem;
-	text-decoration: none; */
+	text-decoration: none;
 }
 /*------------------------------------------------*/
 /* ------------------Mobil Screen-----------------*/
@@ -253,18 +240,6 @@ h2 {
 		margin: 0.5rem;
 		width: 12rem;
 	}
-	/* #myFirstBox {
-		display: initial;
-		position: initial;
-		background: initial;
-		color: rgb(43, 159, 226);
-	}
-	#mySecondBox {
-		display: initial;
-		position: initial;
-		background: initial;
-		color: rgb(43, 159, 226);
-	} */
 
 	/*----------------Float Boxes--------------------*/
 	#myFirstBox {
