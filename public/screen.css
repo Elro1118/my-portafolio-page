@@ -45,8 +45,8 @@ h2 {
 	justify-content: space-around;
 	background: rgba(0, 0, 0, 0.5);
 	padding: 1rem;
-	/*------------------------------------------------*/
 }
+/*------------------------------------------------*/
 .firstArticle {
 	background: no-repeat url(/images/react.png);
 	background-size: cover;
@@ -247,7 +247,7 @@ h2 {
 		position: relative;
 		color: white;
 		top: 15px;
-		left: 40px;
+		left: 100px;
 		padding: 0.7rem;
 		border-radius: 0.6rem;
 		text-decoration: none;
