@@ -1,5 +1,5 @@
 :root {
-	font: 16px / 1 'Roboto', sans-serif;
+	font: 14px / 1 'Roboto', sans-serif;
 }
 
 html {
@@ -190,11 +190,12 @@ h2 {
 }
 #mySecondBox {
 	background-color: rgb(20, 131, 210);
-	margin: -0.5rem 1rem -1rem 4rem;
+	text-align: center;
 	border: none;
 	color: white;
 	border-radius: 3px;
-	/* background: rgb(43, 159, 226);
+
+	/* 
 	position: absolute;
 	margin: 0 auto;
 	left: 1635px;
@@ -264,5 +265,28 @@ h2 {
 		background: initial;
 		color: rgb(43, 159, 226);
 	}
+
+	/*----------------Float Boxes--------------------*/
+	#myFirstBox {
+		background-color: rgb(20, 131, 210);
+		position: relative;
+		color: white;
+		top: 15px;
+		left: 40px;
+		padding: 0.7rem;
+		border-radius: 0.6rem;
+		text-decoration: none;
+	}
+	#mySecondBox {
+		background-color: rgb(20, 131, 210);
+		position: relative;
+		color: white;
+		top: 15px;
+		left: 90px;
+		padding: 0.7rem;
+		border-radius: 0.6rem;
+		text-decoration: none;
+	}
+	/*------------------------------------------------*/
 }
 /*------------------------------------------------*/
